@@ -1,0 +1,28 @@
+
+.logo {
+  height: 100px;
+  width: 100px;
+  justify-content: left;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.home {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacto {
+  height: 100px;
+  width: 100px;
+  display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
