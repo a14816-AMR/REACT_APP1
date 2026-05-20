@@ -12,4 +12,3 @@ createRoot(document.getElementById('roota')).render(
     <Footer />
   </StrictMode>,
 )
-

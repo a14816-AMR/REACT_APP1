@@ -1,24 +1,16 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import "./Header.css"
 import heroImg from './assets/hero.png'
 
 function Header () {
     return (
-
-        <section>
-            <div id = "logo">
-                <img src={heroImg} ></img>
-            </div>
-
-            <div id = "home">
-                <img src={viteLogo} className='home' href = "google.com" ></img>
-            </div>
-
-            <div id = "contacto">
-                <img src={reactLogo} className='contacto' href = "google.com" ></img>
-            </div>
-
-        </section>
+        <div>
+            <logo><img src={heroImg} alt="Hero Vite" id="logo"/></logo>
+                <nav>
+                    <a href="/home" id="home" >HOME</a>
+                    <a href="/contactos">CONTACTOS</a>
+                </nav>
+                <div className="clear"></div>
+        </div>
     )
 }
 

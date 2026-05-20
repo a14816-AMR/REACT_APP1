@@ -1,27 +1,27 @@
-
-.logo {
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin-left: 0;
-  margin-right: auto;
+logo {
+  float: left;
+  width: 30%;
+  text-align: left;
 }
 
-.home {
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+logo img {
+  width: 90px;
+  height: 90px;
 }
 
-.contacto {
-  height: 50px;
-  width: 50px;
-  display: block;
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
+nav {
+  float: right;
+  width: 60%;
+  text-align: right;
 }
 
+nav a {
+  color: #fc0;
+  text-decoration: none;
+  padding: 10px;
+}
 
+nav a:hover {
+  color: #000;
+  font-weight: bold;
+}

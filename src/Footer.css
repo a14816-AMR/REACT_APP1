@@ -1,28 +1,16 @@
-
-.logo {
-  height: 100px;
-  width: 100px;
-  justify-content: left;
-  display: block;
-  margin-left: 0;
-  margin-right: auto;
+.footer-center {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 30px;
 }
 
-.home {
-  height: 100px;
-  width: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.footer-center a {
+    color: #fc0;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.contacto {
-  height: 100px;
-  width: 100px;
-  display: block;
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
+.footer-center a:hover {
+    color: #000;
+    font-weight: bold;
 }
-
-
