@@ -2,6 +2,9 @@ logo {
   float: left;
   width: 30%;
   text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding: 10px;
 }
 
 logo img {
@@ -13,14 +16,16 @@ nav {
   float: right;
   width: 60%;
   text-align: right;
+  padding-top: 15px;
 }
 
 nav a {
   color: #fc0;
   text-decoration: none;
-  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-right: 10px;
 }
-
 nav a:hover {
   color: #000;
   font-weight: bold;
