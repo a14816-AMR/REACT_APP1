@@ -6,6 +6,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Alerta from './Alerta'
 import Formulario from './Formulario'
+import Tarefas from './Tarefas'
 import Contador from './Contador'
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
 
     <h1>Formulário</h1>
     <Formulario/>
+
+    <Tarefas/>
 
     </div>
   );
