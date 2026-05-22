@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Alerta from './Alerta'
+import Contador from './Contador'
 function App() {
   return (
     <div className="container mt-4">
@@ -20,6 +21,7 @@ function App() {
         Clica-me!
       </button>
      
+     <Contador />
 
 
     <h1 className="text-center">Componentes e Props</h1>
@@ -28,8 +30,11 @@ function App() {
     <Mensagem mytext="Os componentes permitem reutilizar código!" />
 
     <h1 className="text-center">Tipos de alertas</h1>
-    <Alerta tipo=" Success " texto=" Feito !!!" />
- 
+    <Alerta tipo="success" texto="É um alerta de sucesso" />
+    <Alerta tipo="warning" texto="É um alerta de aviso" />
+    <Alerta tipo="danger" texto="É um alerta de perigo!!!" />
+
+    
 
     </div>
   );
