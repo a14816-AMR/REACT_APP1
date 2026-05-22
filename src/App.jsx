@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Alerta from './Alerta'
+import Formulario from './Formulario'
 import Contador from './Contador'
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
     <Alerta tipo="warning" texto="É um alerta de aviso" />
     <Alerta tipo="danger" texto="É um alerta de perigo!!!" />
 
-    
+    <h1>Formulário</h1>
+    <Formulario/>
 
     </div>
   );
