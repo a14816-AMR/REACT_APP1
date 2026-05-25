@@ -8,6 +8,7 @@ import Alerta from './Alerta'
 import Formulario from './Formulario'
 import Tarefas from './Tarefas'
 import Contador from './Contador'
+import Notas from './Notas'
 function App() {
   return (
     <div className="container mt-4">
@@ -39,8 +40,8 @@ function App() {
     <h1>Formulário</h1>
     <Formulario/>
 
-    <Tarefas/>
-
+    {/* <Tarefas/> */}
+    <Notas/>
     </div>
   );
 }
