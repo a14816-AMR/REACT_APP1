@@ -46,6 +46,15 @@ function Tarefas() {
         setDadosSubmetidos(null);
     }
 
+    function eliminaTarefa(id){
+        setTarefas(Tarefas.filter((tarefa) => tarefa.id !== id));
+    }
+
+    function eliminarLista(){
+        setTarefas([]);
+    }
+
+
     return (
         <div className="mt-4 row">
 
@@ -74,6 +83,7 @@ function Tarefas() {
                             setFormData({ ...formData, descricao: e.target.value })} />
                     </div>
 
+
                     {/* Botões de ação */}
                     <button className="btn btn-success mr-2">Enviar</button>
 
@@ -83,6 +93,9 @@ function Tarefas() {
 
                     <button type="button" className="btn btn-outline-secondary"
                         onClick={newtarefa}> Adicionar Tarefa </button>
+                        
+                    <button type="button" className="btn btn-outline-secondary" onClick={() => eliminarLista()}>
+                            Eliminar Lista </button>
                 </form>
             </div>
 
@@ -104,6 +117,9 @@ function Tarefas() {
                             <p><strong>Título:</strong> {tarefa.titulo}</p>
                             <p><strong>Data:</strong> {tarefa.data}</p>
                             <p><strong>Descrição:</strong> {tarefa.descricao}</p>
+                            <button type="button" className="btn btn-secondary" onClick={() => eliminaTarefa(tarefa.id)}>
+                                Eliminar da Lista
+                            </button> 
                         </li>
                     ))}
                 </ul>
