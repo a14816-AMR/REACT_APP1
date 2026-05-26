@@ -24,12 +24,12 @@ function App() {
         Clica-me!
       </button>
      
-     <Contador />
+     {/*<Contador />*/}
 
 
-    <h1 className="text-center">Componentes e Props</h1>
+    {/*<h1 className="text-center">Componentes e Props</h1>*/}
     {/* Cada componente recebe props diferentes */}
-    <Mensagem mytext="Bem-vindo à tua primeira aplicação React!" />
+    {/*<Mensagem mytext="Bem-vindo à tua primeira aplicação React!" />
     <Mensagem mytext="Os componentes permitem reutilizar código!" />
 
     <h1 className="text-center">Tipos de alertas</h1>
@@ -38,7 +38,7 @@ function App() {
     <Alerta tipo="danger" texto="É um alerta de perigo!!!" />
 
     <h1>Formulário</h1>
-    <Formulario/>
+    {/* <Formulario/> */}
 
     {/* <Tarefas/> */}
     <Notas/>

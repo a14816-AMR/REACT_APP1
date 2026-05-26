@@ -18,7 +18,7 @@ function Formulario() {
     }
     // Limpa o formulário e os dados apresentados
     function limparFormulario() {
-        setFormData({ nome: '', email: '', telefone: '', morada: '',codigoPostal: '',mensagem: '' });
+        setFormData({ nome: '', email: '', telefone: '', morada: '',codigoPostal: '',mensagem: '' });z
         setDadosSubmetidos(null);
     }
     return (
@@ -29,13 +29,12 @@ function Formulario() {
                     <div className="form-group">
                         <label>Nome</label>
                         <input type="text" className="form-control" value={formData.nome} onChange={(e) =>
-
                             setFormData({ ...formData, nome: e.target.value })} required />
+
                     </div>
                     <div className="form-group">
                         <label>Email</label>
                         <input type="email" className="form-control" value={formData.email} onChange={(e) =>
-
                             setFormData({ ...formData, email: e.target.value })} required />
                     </div>
                     <div className="form-group">
