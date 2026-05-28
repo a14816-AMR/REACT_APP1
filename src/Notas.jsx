@@ -77,7 +77,7 @@ function Notas() {
                 <div class="row g-3">
                     <div className="col-md-3">
                         <label>Nota do Teste:</label>
-                        <input type="number" className="form-control" min="0" max="20" value={NotaTeste.notaTeste} onChange={(e) =>
+                        <input type="number" className="form-control" min="0" max="20" step="0.1" value={NotaTeste.notaTeste} onChange={(e) =>
                             setNotaTeste({ ...NotaTeste, notaTeste: e.target.value })} required />
 
                     </div>
@@ -93,7 +93,7 @@ function Notas() {
                 <div class="row g-3">
                     <div className="col-md-3">
                         <label>Nota do Trabalho:</label>
-                        <input type="number" className="form-control" min="0" max="20" value={NotaTeste.notaTrabalho} onChange={(e) =>
+                        <input type="number" className="form-control" min="0" max="20" step="0.1" value={NotaTeste.notaTrabalho} onChange={(e) =>
                             setNotaTeste({ ...NotaTeste, notaTrabalho: e.target.value })} required />
                     </div>
                     <div className="col-md-3">
@@ -107,7 +107,7 @@ function Notas() {
                 <div class="row g-3">
                     <div className="col-md-3">
                         <label>Nota das Atitudes</label>
-                        <input type="number" className="form-control" min="0" max="20" value={NotaTeste.notaAtitudes} onChange={(e) =>
+                        <input type="number" className="form-control" min="0" max="20" step="0.1" value={NotaTeste.notaAtitudes} onChange={(e) =>
                             setNotaTeste({ ...NotaTeste, notaAtitudes: e.target.value })} required />
                     </div>
                     <div className="col-md-3">
@@ -121,7 +121,7 @@ function Notas() {
                     Calcular Nota Final
                 </button>
 
-                <button type="button" className="btn btn-outline-secondary mt-3" onClick={limparFormulario}>
+                <button type="button" className="btn btn-danger mt-3" onClick={limparFormulario}>
                     Limpar Formulário
                 </button>
 
